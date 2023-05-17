@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295016524051",
+    "project_id": "whispr1",
+    "storage_bucket": "whispr1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295016524051:android:42ab7b725d22bb851952e6",
+        "android_client_info": {
+          "package_name": "com.example.whispr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295016524051-guq6njqc5hh6uvej6d4vlub92v81qpv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsNX7cT8NJ23-oEtUKQZ7K04r0QtElzCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295016524051-guq6njqc5hh6uvej6d4vlub92v81qpv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

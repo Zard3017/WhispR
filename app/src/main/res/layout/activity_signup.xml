@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="207dp"
+        android:layout_height="207dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#F8FAFA"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/applogo"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/black"
+        android:hint="Name"
+        android:drawableLeft="@drawable/baseline_person_outline_24"
+        android:background="@drawable/edt_background"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_Email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="20dp"
+        android:drawableStart="@drawable/baseline_mail_24"
+        android:layout_below="@id/edt_name"
+        android:layout_marginTop="18dp"
+        android:hint="Email"
+        android:background="@drawable/edt_background"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_Password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:layout_below="@id/edt_Email"
+        android:layout_marginTop="25dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edt_background"
+        android:paddingLeft="20dp"
+        android:hint="Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_Password"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Sign up" />
+
+
+
+</RelativeLayout>
